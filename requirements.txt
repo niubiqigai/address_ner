@@ -1,0 +1,6 @@
+dataclasses==0.8
+environs==9.3.1
+Flask~=0.12
+numpy==1.17.2
+pandas~=0.19.2
+tensorflow-addons==0.13.0
