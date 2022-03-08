@@ -1,0 +1,21 @@
+2022-03-08 14:56:14 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\util\deprecation.py:323 - WARNING - From E:\beijinggongjing\KunGeek\26.person_project\address_ner\address_ner\src\address_ner\product\v1_0\model.py:99: LSTMCell.__init__ (from tensorflow.python.keras.layers.legacy_rnn.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2022-03-08 14:56:14 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\util\deprecation.py:323 - WARNING - From E:\beijinggongjing\KunGeek\26.person_project\address_ner\address_ner\src\address_ner\product\v1_0\model.py:106: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2022-03-08 14:56:14 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\util\deprecation.py:323 - WARNING - From C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\ops\rnn.py:447: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2022-03-08 14:56:14 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\util\deprecation.py:323 - WARNING - From C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:966: Layer.add_variable (from tensorflow.python.keras.engine.base_layer_v1) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.add_weight` method instead.
+2022-03-08 14:56:14 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\util\deprecation.py:506 - WARNING - From C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\keras\layers\legacy_rnn\rnn_cell_impl.py:970: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-03-08 14:56:17 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\framework\meta_graph.py:437 - WARNING - Issue encountered when serializing trainable_variables.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'transitions' has type str, but expected one of: int, long, bool
+2022-03-08 14:56:17 - C:\Users\kungeek\Envs\nlp_server_tf230\lib\site-packages\tensorflow\python\framework\meta_graph.py:437 - WARNING - Issue encountered when serializing variables.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'transitions' has type str, but expected one of: int, long, bool
